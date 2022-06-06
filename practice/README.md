@@ -3,7 +3,7 @@
 2. Create a module called `Patronable`, and `Include` it in the two classes.  
 3. Comment out OR delete the methods currently written in both classes.
 4. Starting with `inn_spec.rb`, under the `describe 'utilizing the module' do` block, follow the instructions to complete the exercise.
-*hint* `pry` might be your new best friend here. Write a method in the `module`, put a `pry` inside, then call the method in your test block. Once inside your `pry`, type `self` to see what you are, and how to access the data you need!
+*hint* `pry` might be your new best friend here. Write a method in the `module`, put a `pry` inside the method, then call said method in your test block. Once inside your `pry`, type `self` to see what you are, and how to access the data you need!
 5. Once you've finished with `inn`, do the same for `saloon_spec.rb`
 
 ---------
