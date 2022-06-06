@@ -13,7 +13,7 @@ class Inn
     @patrons << patron
   end
 
-  def kick_out_the_deadbeat(student)
-    @patrons.delete(student)
+  def kick_out_the_deadbeat(patron)
+    @patrons.delete(patron)
   end
 end
