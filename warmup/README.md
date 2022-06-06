@@ -1,7 +1,11 @@
-## Warmup 
-1. You should see three files, `gun_slinger`, `sheriff`, and a `runner`.
-2. CD into the `warmup/lib` directory, and call the `runner` w/ `$ ruby runner.rb`. Do you see any repeated lines?
-3. Take a look at the `gun_slinger` and `sheriff` classes. What functionality do they share? Is this DRY code?
-4. How could you utilize a `module` to DRY up this code?
-5. Make it happen! Create a `module`, `mixin` your `module` functionality to the two seperate classes, then call those new methods in the `runner`!
-*note* If you need a refresher on how to do that, check out https://backend.turing.edu/module1/lessons/modules
+## Warmup
+- CD into the `lib` directory, and call the `runner` w/ `$ ruby runner.rb`. Do you see any repeated lines?
+- Take a look at the `gun_slinger` and `sheriff` classes, then answer these questions:
+1. What functionality do these classes share?
+2. Is this DRY code?
+
+Let's Create a `module` called `Quoteable` to help us DRY this code up.  
+- In the `Quoteable` module, create a new method for each bit of shared functionality between the two classes.
+- `Include` the module into both of the classes (don't forget to `require_relative`!)
+- Remove the lines of shared functionality by either deleting or commenting them out
+- Call you new methods in the `runner` file to ensure you have the same functionality!
