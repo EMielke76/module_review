@@ -59,8 +59,8 @@ RSpec.describe Saloon do
       ### Uncomment out the lines below
       ### add patrons with your previous method, then
       ### alter the expect line to achieve the desired result!
-      ### NOTE: Don't simply do @last_drop.patrons.count, create a new
-      ### method that performs that functionality!
+      ### NOTE: Don't simply do @last_drop.patrons.count, utilize the
+      ### method you have defined on the 'Patronable' module!
 
       #@last_drop.<your_method_here>
 
