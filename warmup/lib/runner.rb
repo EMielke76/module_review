@@ -6,11 +6,11 @@ garrett = Sheriff.new({name: "Pat Garrett", reputation: "Honorable Lawman"})
 
 garrett.wanted_poster(hardin)
 
-puts garrett.i_could_be_your_huckleberry
-puts hardin.you_got_the_wrong_man
+garrett.i_could_be_your_huckleberry
+hardin.you_got_the_wrong_man
 puts  "---"
-puts hardin.the_man_in_black
-puts garrett.reach_for_the_sky
+garrett.i_am_the_law
+hardin.the_man_in_black
 puts "---"
-puts garrett.i_am_the_law
-puts hardin.it_aint_your_day
+garrett.fastest_hands_in_the_west
+hardin.it_aint_your_day

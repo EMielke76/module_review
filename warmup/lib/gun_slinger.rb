@@ -15,7 +15,7 @@ class GunSlinger
   end
 
   def it_aint_your_day
-    puts "Draw!"
+    puts "Draw"
   end
 
   def you_got_the_wrong_man
